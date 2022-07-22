@@ -1,0 +1,18 @@
+{
+    "default": {
+        "--ibconnection": "/S std-dapp05.stdp.ru\\test-lms-ds",
+	    "--db-user": "ws",
+        "--db-pwd": "ws",
+        "--ordinaryapp": "1",
+        "--storage-name": "http://dev-repo-ut.web.stdp.ru/repository/repository.1ccr/LMS-SRS-154",
+		"--storage-user": "test-lms-ds",
+		"--storage-pwd": "",
+        "--uccode": "12345",
+        "--v8version": "8.3.10"
+    },
+	"session": {
+		"--ras": "std-dapp05.stdp.ru",
+		"--try": "1",
+		"--db": "test-lms-ds"	
+	}	
+}

@@ -1,0 +1,1 @@
+py "E:\Scripts\TempClear.py"
