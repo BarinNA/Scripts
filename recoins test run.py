@@ -18,7 +18,7 @@ def runTests(basename, path_tests, path_allurereport):
     #сменим рабочую директорию т.к. не удалось добится запуска по абсолютному пути
     os.chdir(path_add)
 
-    run_command     = f"ENTERPRISE /s localhost\{basename} /N backup /P ,'rfg1c /RunModeManagedApplication /DisableStartupMessages"
+    run_command     = f"ENTERPRISE /s localhost\{basename} /N backup /P 081172370 /RunModeManagedApplication /DisableStartupMessages"
     execute_command = "/Execute xddTestRunner.epf"
     test_command    = [f"/C xddRun ЗагрузчикКаталога {path_tests}; xddReport ГенераторОтчетаAllureXMLВерсия2 {path_allurereport}/json_for_allure {path_allurereport};xddShutdown"]
 
